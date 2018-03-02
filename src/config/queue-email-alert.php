@@ -20,5 +20,5 @@ return [
     | If set null will not use queue
     |
    */
-    'queue' => null,
+    'queue' => 'default',
 ];
