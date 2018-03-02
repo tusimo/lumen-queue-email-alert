@@ -1,0 +1,36 @@
+{
+  "name": "tusimo/lumen-queue-email-alert",
+  "type": "library",
+  "description": "email to users when queue failed",
+  "keywords": ["queue", "email", "alert", "lumen", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tusimo",
+      "email": "ucc862@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.4.0",
+    "illuminate/queue": "^5.4.0",
+    "illuminate/mail": "5.4.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tusimo\\QueueEmailAlert\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tusimo\\QueueEmailAlert\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
