@@ -11,7 +11,7 @@ return [
     | set null will not send emails
     */
 
-    'to' => env('MAIL_TO_ADDRESS', '603353475@qq.com'),
+    'to' => env('MAIL_TO_ADDRESS', ''),
     /*
     |--------------------------------------------------------------------------
     | The queue use for handle send email
